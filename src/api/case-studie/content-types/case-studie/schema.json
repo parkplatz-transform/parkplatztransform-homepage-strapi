@@ -4,7 +4,8 @@
   "info": {
     "singularName": "case-studie",
     "pluralName": "case-studies",
-    "displayName": "case-studie"
+    "displayName": "case-studie",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,16 +13,20 @@
   "pluginOptions": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "description": {
       "type": "richtext"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
