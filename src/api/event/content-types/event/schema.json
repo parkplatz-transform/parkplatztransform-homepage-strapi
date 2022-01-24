@@ -1,0 +1,137 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "singularName": "event",
+    "pluralName": "events",
+    "displayName": "event",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "neighbourhood": {
+      "type": "enumeration",
+      "enum": [
+        "AltGlienicke",
+        "AltHohenschoenhausen",
+        "AltTreptow",
+        "Baumschulenweg",
+        "Biesdorf",
+        "Blankenburg",
+        "Blankenfelde",
+        "Bohnsdorf",
+        "Britz",
+        "Buch",
+        "Buckow",
+        "Charlottenburg",
+        "CharlottenburgNord",
+        "Dahlem",
+        "Falkenberg",
+        "FalkenhagenerFeld",
+        "Fennpfuhl",
+        "FranzoesischBuchholz",
+        "Friedenau",
+        "Friedrichsfelde",
+        "Friedrichshagen",
+        "Friedrichshain",
+        "Frohnau",
+        "Gatow",
+        "Gesundbrunnen",
+        "Gropiusstadt",
+        "Gruenau",
+        "Grunewald",
+        "Hafensee",
+        "Hakenfelde",
+        "Hansaviertel",
+        "Haselhorst",
+        "Heiligensee",
+        "Heinersdorf",
+        "Hellersdorf",
+        "Hermsdorf",
+        "Johannisthal",
+        "Karlshorst",
+        "Karow",
+        "Kladow",
+        "Konradshoehe",
+        "Koepenick",
+        "Kraulsdorf",
+        "Kreuzberg",
+        "Lankwitz",
+        "Lichtenberg",
+        "Lichtenrade",
+        "Lichterfelde",
+        "Luebars",
+        "Mahlsdorf",
+        "Malchow",
+        "Mariendorf",
+        "Marienfelde",
+        "MaerkischesViertel",
+        "Marzahn",
+        "Mitte",
+        "Moabit",
+        "Mueggelheim",
+        "NeuHohenschoenhausen",
+        "Neukoelln",
+        "Niederschoeneweide",
+        "Niederschoenhausen",
+        "Nikolassee",
+        "Oberschoeneweide",
+        "Pankow",
+        "Plaenterwald",
+        "PrenzlauerBerg",
+        "Rahnsdorf",
+        "Reinickendorf",
+        "Rosenthal",
+        "Rudow",
+        "Rummelsburg",
+        "Schmargendorf",
+        "Schmoeckwitz",
+        "Schoeneberg",
+        "Siemensstadt",
+        "Spandau",
+        "Staaken",
+        "StadtrandsiedlungMalchow",
+        "Steglitz",
+        "Tegel",
+        "Tempelhof",
+        "Tiergarten",
+        "Waldmannslust",
+        "Wannsee",
+        "Wartenberg",
+        "Wedding",
+        "Weissensee",
+        "Westend",
+        "Wilhelmsruth",
+        "Wilhelmstadt",
+        "Wilmersdorf",
+        "Wittenau",
+        "Zehlendorf"
+      ]
+    },
+    "isPlenum": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "location_postalcode_and_city": {
+      "type": "string"
+    },
+    "location_street_and_number": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "time"
+    }
+  }
+}
