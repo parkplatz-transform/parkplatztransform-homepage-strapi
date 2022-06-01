@@ -10,13 +10,16 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^34.1.0",
+    "@ckeditor/ckeditor5-react": "^5.0.2",
     "@strapi/plugin-i18n": "4.1.10",
     "@strapi/plugin-users-permissions": "4.1.10",
     "@strapi/provider-upload-cloudinary": "^4.1.10",
     "@strapi/strapi": "4.1.10",
     "pg": "^8.7.1",
     "pg-connection-string": "^2.5.0",
-    "sqlite3": "5.0.2"
+    "sqlite3": "5.0.2",
+    "wysiwyg": "^2.0.0"
   },
   "author": {
     "name": "A Strapi developer"
