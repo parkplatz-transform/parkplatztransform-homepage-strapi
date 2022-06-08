@@ -4,7 +4,8 @@
   "info": {
     "singularName": "basic-text",
     "pluralName": "basic-texts",
-    "displayName": "basic text"
+    "displayName": "basic text",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
